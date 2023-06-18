@@ -498,7 +498,8 @@ main {
   top: 221px;
   left: 536px;
   transform: scale(0.9);
-  transition-duration: 1s;
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button {
   border-radius: 50%;
